@@ -1,7 +1,7 @@
 <h1>Lista de Tarefas</h1>
 <ul>
  {% for todo in todo_list %}
- <li>{{ todo.title }} </li>
+ <li><b>Título</b> - {{ todo.title }} | <b>Deadline</b> - {{ todo.deadline }}</li>
  {% endfor %}
 </ul>
 
